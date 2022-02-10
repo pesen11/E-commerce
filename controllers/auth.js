@@ -4,13 +4,13 @@ const nodemailer = require("nodemailer");
 const sendGridTransport = require("nodemailer-sendgrid-transport");
 const crypto = require("crypto");
 const { validationResult } = require("express-validator/check");
-//api_key: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
+
 
 const transporter = nodemailer.createTransport(
   sendGridTransport({
     auth: {
       api_key:
-        "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",
+        "your api key",
     },
   })
 );
