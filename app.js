@@ -117,7 +117,7 @@ app.use((error, req, res, next) => {
 
 mongoose
   .connect(
-    "mongodb+srv://pesen:XGBoosted77@cluster0.yae7o.mongodb.net/shop?retryWrites=true&w=majority",
+    "mongodb+srv://pesen:password@cluster0.yae7o.mongodb.net/shop?retryWrites=true&w=majority",
     { useNewUrlParser: true, useUnifiedTopology: true }
   )
   .then((result) => {
