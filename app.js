@@ -17,7 +17,7 @@ const MONGODB_URL =
   "mongodb+srv://pesen:XGBoosted77@cluster0.yae7o.mongodb.net/shop?retryWrites=true&w=majority";
 const app = express();
 const store = new mongoDBStore({
-  uri: "mongodb+srv://pesen:XGBoosted77@cluster0.yae7o.mongodb.net/shop",
+  uri: "mongodb+srv://username:password@cluster0.yae7o.mongodb.net/shop",
   collection: "sessions",
 });
 
